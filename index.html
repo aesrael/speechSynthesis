@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Voice.Js</title>
+</head>
+
+<body id='app'>
+    <h1>VOICEJS</h1>
+    <h3>BLOG1</h3>
+    <div id='blog1'>
+        Hello, so I was playing around and came up with this speech synthesis api helper function, this takes a section of your blog
+        or webpage and reads it out. <br> Add the voice function to the an onclick attribute with the argument being
+        that of the div containing the text to read and you are good to go! Cool isnt it?? well thats the awesomess of JavaScript!!
+        Fork this repo and add more features. I think I am too lazy to do that. LOL! I will keep adding new features and
+        might eventually decide on making a library. cheers!!
+        <br/>
+        <input id='btn' type='button' onclick="voice('blog1')" value='voice out'>
+    </div>
+
+    <h3>BLOG2</h3>
+    <div id='blog2'>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium ex consequuntur perspiciatis alias blanditiis est,
+        expedita nesciunt! Ipsa exercitationem rem sint dignissimos consequatur aliquam necessitatibus dolorum vel voluptates.
+        Ab, sed?
+        <br/>
+        <input id='btn' type='button' onclick="voice('blog2')" value='voice out'>
+    </div>
+    <script src='voice.js'></script>
+</body>
+
+</html>
